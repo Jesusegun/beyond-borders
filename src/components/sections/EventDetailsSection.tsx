@@ -15,11 +15,6 @@ const detailItems = [
     icon: ClockIcon,
   },
   {
-    title: "Duration",
-    value: EVENT_CONTENT.schedule.duration,
-    icon: ClockIcon,
-  },
-  {
     title: "Platform",
     lines: [
       { label: "WhatsApp", value: EVENT_CONTENT.platform.whatsapp },
