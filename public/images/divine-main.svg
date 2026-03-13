@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="800" viewBox="0 0 640 800" role="img" aria-labelledby="title desc">
+  <title id="title">Divine main placeholder</title>
+  <desc id="desc">Replace with the primary portrait photo of Divine Chukwuemeka.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1b3552"/>
+      <stop offset="100%" stop-color="#d65536"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="800" fill="url(#bg)"/>
+  <g fill="#ffffff" opacity="0.9">
+    <circle cx="320" cy="290" r="110"/>
+    <path d="M130 650c28-127 108-189 190-189s162 62 190 189"/>
+  </g>
+  <text x="50%" y="88%" fill="#ffffff" text-anchor="middle" font-size="28" font-family="Arial, sans-serif">
+    Replace with Divine main photo
+  </text>
+</svg>
