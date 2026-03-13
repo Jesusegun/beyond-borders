@@ -20,18 +20,11 @@ const detailItems = [
     icon: ClockIcon,
   },
   {
-    title: "Platforms",
-    value: "WhatsApp + Google Meet",
-    icon: PlatformIcon,
-  },
-  {
-    title: "WhatsApp Use",
-    value: EVENT_CONTENT.platform.whatsapp,
-    icon: PlatformIcon,
-  },
-  {
-    title: "Google Meet Use",
-    value: EVENT_CONTENT.platform.googleMeet,
+    title: "Platform",
+    lines: [
+      { label: "WhatsApp", value: EVENT_CONTENT.platform.whatsapp },
+      { label: "Google Meet", value: EVENT_CONTENT.platform.googleMeet },
+    ],
     icon: PlatformIcon,
   },
   {
@@ -58,7 +51,17 @@ export function EventDetailsSection() {
                 <item.icon className="h-5 w-5 text-[var(--color-accent)]" />
               </div>
               <h3 className="mt-4 font-display text-2xl text-[var(--color-primary)]">{item.title}</h3>
-              <p className="mt-2 text-sm leading-6 text-[var(--color-muted)]">{item.value}</p>
+              {item.lines ? (
+                <div className="mt-2 space-y-2">
+                  {item.lines.map((line) => (
+                    <p key={line.label} className="text-sm leading-6 text-[var(--color-muted)]">
+                      <span className="font-semibold text-[var(--color-primary)]">{line.label}:</span> {line.value}
+                    </p>
+                  ))}
+                </div>
+              ) : (
+                <p className="mt-2 text-sm leading-6 text-[var(--color-muted)]">{item.value}</p>
+              )}
             </article>
           ))}
         </div>
