@@ -1,6 +1,6 @@
 import { Container } from "@/components/ui/Container";
 import { SectionHeading } from "@/components/ui/SectionHeading";
-import { CalendarIcon, ClockIcon, PlatformIcon, TicketIcon } from "@/components/ui/Icons";
+import { CalendarIcon, ClockIcon, PlatformIcon } from "@/components/ui/Icons";
 import { EVENT_CONTENT } from "@/lib/event-content";
 
 const detailItems = [
@@ -21,11 +21,6 @@ const detailItems = [
       { label: "Google Meet", value: EVENT_CONTENT.platform.googleMeet },
     ],
     icon: PlatformIcon,
-  },
-  {
-    title: "Ticket",
-    value: EVENT_CONTENT.ticket.price,
-    icon: TicketIcon,
   },
 ];
 

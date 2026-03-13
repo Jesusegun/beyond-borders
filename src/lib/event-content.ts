@@ -19,7 +19,7 @@ export const EVENT_CONTENT = {
     googleMeet: "For the live masterclass sessions.",
   },
   ticket: {
-    price: "N10,000",
+    price: "₦10,000",
     urgency: "Seats are limited.",
   },
 } as const;

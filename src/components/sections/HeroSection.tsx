@@ -26,6 +26,10 @@ export function HeroSection() {
             <span className="rounded-full bg-white px-4 py-2 text-[var(--color-primary)] shadow-sm">
               {EVENT_CONTENT.schedule.time}
             </span>
+            <span className="rounded-full bg-white px-4 py-2 text-[var(--color-primary)] shadow-sm">
+              <span className="mr-1 text-[var(--color-muted)]">Fee:</span>
+              {EVENT_CONTENT.ticket.price}
+            </span>
           </div>
 
           <div className="mt-10">
