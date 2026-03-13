@@ -27,7 +27,7 @@ export function TicketSection() {
             <CtaButton
               href={WHATSAPP_LINK}
               label="Reserve Your Seat"
-              className="bg-white text-[var(--color-primary)] shadow-none hover:brightness-95"
+              className="!bg-white !text-[var(--color-primary)] shadow-none hover:brightness-95"
             />
           </div>
         </div>

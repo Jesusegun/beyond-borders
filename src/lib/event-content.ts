@@ -22,7 +22,6 @@ export const EVENT_CONTENT = {
     price: "N10,000",
     urgency: "Seats are limited.",
   },
-  finalCtaLine: "Ready to start your relocation journey?",
 } as const;
 
 export type LearnItem = {

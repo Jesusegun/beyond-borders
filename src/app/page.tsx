@@ -1,7 +1,6 @@
 import { Footer } from "@/components/layout/Footer";
 import { Navbar } from "@/components/layout/Navbar";
 import { EventDetailsSection } from "@/components/sections/EventDetailsSection";
-import { FinalCtaSection } from "@/components/sections/FinalCtaSection";
 import { HeroSection } from "@/components/sections/HeroSection";
 import { LearnSection } from "@/components/sections/LearnSection";
 import { SocialProofSection } from "@/components/sections/SocialProofSection";
@@ -59,7 +58,6 @@ export default function Home() {
         <SocialProofSection />
         <EventDetailsSection />
         <TicketSection />
-        <FinalCtaSection />
       </main>
       <Footer />
     </div>

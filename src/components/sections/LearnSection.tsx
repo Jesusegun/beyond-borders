@@ -30,29 +30,22 @@ export function LearnSection() {
         />
 
         <div className="mt-10 grid gap-5 md:grid-cols-2">
-          {LEARN_ITEMS.map((item, index) => {
-            const cardClass =
-              index === LEARN_ITEMS.length - 1
-                ? "md:col-span-2"
-                : "";
-
-            return (
-              <article
-                key={item.title}
-                className={`rounded-3xl border border-black/10 bg-[var(--color-surface)] p-6 shadow-[0_8px_20px_rgba(15,42,67,0.06)] ${cardClass}`}
-              >
-                <div className="inline-flex rounded-2xl bg-[var(--color-accent-soft)] p-3">
-                  <LearnIcon icon={item.icon} />
-                </div>
-                <h3 className="mt-5 font-display text-2xl leading-tight text-[var(--color-primary)]">
-                  {item.title}
-                </h3>
-                <p className="mt-3 text-base leading-7 text-[var(--color-muted)]">
-                  {item.description}
-                </p>
-              </article>
-            );
-          })}
+          {LEARN_ITEMS.map((item) => (
+            <article
+              key={item.title}
+              className="rounded-3xl border border-black/10 bg-[var(--color-surface)] p-6 shadow-[0_8px_20px_rgba(15,42,67,0.06)]"
+            >
+              <div className="inline-flex rounded-2xl bg-[var(--color-accent-soft)] p-3">
+                <LearnIcon icon={item.icon} />
+              </div>
+              <h3 className="mt-5 font-display text-2xl leading-tight text-[var(--color-primary)]">
+                {item.title}
+              </h3>
+              <p className="mt-3 text-base leading-7 text-[var(--color-muted)]">
+                {item.description}
+              </p>
+            </article>
+          ))}
         </div>
       </Container>
     </section>
