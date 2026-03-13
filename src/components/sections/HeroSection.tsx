@@ -10,7 +10,7 @@ export function HeroSection() {
       <Container className="relative grid items-center gap-10 lg:grid-cols-[1.15fr_0.85fr]">
         <div>
           <p className="mb-5 inline-flex rounded-full border border-[var(--color-primary)]/25 bg-white/70 px-4 py-1 text-xs font-bold uppercase tracking-[0.14em] text-[var(--color-primary)]">
-            Live Masterclass - April 2026
+            Live Masterclass - {EVENT_CONTENT.schedule.date}
           </p>
           <h1 className="font-display text-4xl leading-tight text-[var(--color-primary)] sm:text-5xl lg:text-6xl">
             {EVENT_CONTENT.heroTitle}
@@ -40,6 +40,7 @@ export function HeroSection() {
             alt="Divine Mmachukwu Chukwuemeka"
             width={640}
             height={760}
+            sizes="(min-width: 1024px) 420px, (min-width: 768px) 50vw, 90vw"
             priority
             className="aspect-[4/5] w-full rounded-[2rem] border border-black/5 object-cover shadow-xl"
           />

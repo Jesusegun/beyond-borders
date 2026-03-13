@@ -9,6 +9,9 @@ export const EVENT_CONTENT = {
     date: "April 10th - 11th, 2026",
     time: "7:00 PM - 9:00 PM (WAT)",
     duration: "2 hours each day",
+    startDate: "2026-04-10T19:00:00+01:00",
+    endDate: "2026-04-11T21:00:00+01:00",
+    timezone: "Africa/Lagos",
   },
   platform: {
     whatsapp:

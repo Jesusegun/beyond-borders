@@ -13,6 +13,7 @@ export function SpeakerSection() {
             alt={SPEAKER_CONTENT.name}
             width={560}
             height={700}
+            sizes="(min-width: 1024px) 360px, (min-width: 768px) 45vw, 80vw"
             className="aspect-[4/5] w-full rounded-[2rem] border border-black/5 object-cover shadow-lg"
           />
         </figure>
