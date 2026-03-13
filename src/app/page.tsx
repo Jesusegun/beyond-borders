@@ -3,7 +3,7 @@ import { Navbar } from "@/components/layout/Navbar";
 import { EventDetailsSection } from "@/components/sections/EventDetailsSection";
 import { HeroSection } from "@/components/sections/HeroSection";
 import { LearnSection } from "@/components/sections/LearnSection";
-import { SocialProofSection } from "@/components/sections/SocialProofSection";
+// import { SocialProofSection } from "@/components/sections/SocialProofSection";
 import { SpeakerSection } from "@/components/sections/SpeakerSection";
 import { TicketSection } from "@/components/sections/TicketSection";
 import { EVENT_CONTENT, SPEAKER_CONTENT, WHATSAPP_LINK } from "@/lib/event-content";
@@ -55,7 +55,8 @@ export default function Home() {
         <HeroSection />
         <LearnSection />
         <SpeakerSection />
-        <SocialProofSection />
+        {/* Temporarily hidden for this event; keep for future events. */}
+        {/* <SocialProofSection /> */}
         <EventDetailsSection />
         <TicketSection />
       </main>
