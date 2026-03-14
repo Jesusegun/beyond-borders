@@ -26,10 +26,6 @@ export function HeroSection() {
             <span className="rounded-full bg-white px-4 py-2 text-[var(--color-primary)] shadow-sm">
               {EVENT_CONTENT.schedule.time}
             </span>
-            <span className="rounded-full bg-white px-4 py-2 text-[var(--color-primary)] shadow-sm">
-              <span className="mr-1 text-[var(--color-muted)]">Fee:</span>
-              {EVENT_CONTENT.ticket.price}
-            </span>
           </div>
 
           <div className="mt-10">
@@ -40,7 +36,7 @@ export function HeroSection() {
         <figure className="relative mx-auto w-full max-w-md">
           <div className="absolute -inset-2 -z-10 rounded-[2rem] bg-gradient-to-br from-[var(--color-primary)]/20 via-transparent to-[var(--color-accent)]/20" />
           <Image
-            src="/images/hero1.jpeg"
+            src="/images/hero.jpeg"
             alt="Divine Mmachukwu Chukwuemeka"
             width={640}
             height={760}
