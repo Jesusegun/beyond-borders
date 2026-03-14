@@ -19,7 +19,7 @@ export const EVENT_CONTENT = {
     googleMeet: "For the live masterclass sessions.",
   },
   ticket: {
-    price: "₦10,000",
+    price: "₦15,000",
     urgency: "Seats are limited.",
   },
 } as const;
@@ -111,7 +111,7 @@ export const SOCIAL_PROOF = {
 
 export const NAV_LINKS = [
   { href: "#learn", label: "Learn" },
-  { href: "#speaker", label: "Speaker" },
+  { href: "#speaker", label: "Host" },
   { href: "#details", label: "Details" },
   { href: "#tickets", label: "Tickets" },
 ] as const;

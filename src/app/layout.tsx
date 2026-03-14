@@ -42,7 +42,7 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "/images/divine.png",
+        url: "/images/hero.jpeg",
         width: 1200,
         height: 630,
         alt: EVENT_CONTENT.eventName,
@@ -53,7 +53,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: EVENT_CONTENT.heroTitle,
     description: EVENT_CONTENT.heroSubtitle,
-    images: ["/images/divine.png"],
+    images: ["/images/hero.jpeg"],
   },
 };
 

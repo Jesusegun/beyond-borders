@@ -20,7 +20,7 @@ export function SpeakerSection() {
 
         <div>
           <SectionHeading
-            overline="Speaker / Credibility"
+            overline="Host / Credibility"
             title={SPEAKER_CONTENT.name}
             description={SPEAKER_CONTENT.title}
           />

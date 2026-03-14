@@ -10,7 +10,7 @@ import { EVENT_CONTENT, SPEAKER_CONTENT, WHATSAPP_LINK } from "@/lib/event-conte
 
 export default function Home() {
   const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "https://beyond-borders-ecru.vercel.app";
-  const eventImageUrl = new URL("/images/divine.png", siteUrl).toString();
+  const eventImageUrl = new URL("/images/hero.jpeg", siteUrl).toString();
   const structuredData = {
     "@context": "https://schema.org",
     "@type": "Event",
@@ -37,7 +37,7 @@ export default function Home() {
     offers: {
       "@type": "Offer",
       url: WHATSAPP_LINK,
-      price: "10000",
+      price: "15000",
       priceCurrency: "NGN",
       availability: "https://schema.org/InStock",
       validFrom: EVENT_CONTENT.schedule.startDate,
