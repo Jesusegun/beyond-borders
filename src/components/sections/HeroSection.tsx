@@ -40,7 +40,7 @@ export function HeroSection() {
         <figure className="relative mx-auto w-full max-w-md">
           <div className="absolute -inset-2 -z-10 rounded-[2rem] bg-gradient-to-br from-[var(--color-primary)]/20 via-transparent to-[var(--color-accent)]/20" />
           <Image
-            src="/images/hero.jpeg"
+            src="/images/hero1.jpeg"
             alt="Divine Mmachukwu Chukwuemeka"
             width={640}
             height={760}
