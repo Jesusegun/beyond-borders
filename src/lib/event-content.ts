@@ -1,4 +1,4 @@
-export const WHATSAPP_LINK = "https://wa.link/e9l2va";
+export const WHATSAPP_LINK = "https://wa.link/yoiuma";
 
 export const EVENT_CONTENT = {
   eventName: "Beyond Borders",
